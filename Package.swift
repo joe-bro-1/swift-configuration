@@ -65,7 +65,7 @@ traits.insert(
 
 let package = Package(
     name: "swift-configuration",
-    platforms: [.macOS(.v10_14)],
+    platforms: [.macOS(.v10_15)],
     products: [
         .library(name: "Configuration", targets: ["Configuration"]),
         .library(name: "ConfigurationTesting", targets: ["ConfigurationTesting"]),
